@@ -1,0 +1,6 @@
+.DS_Store
+target/
+project/target/
+
+.ivy2/
+.sbt/

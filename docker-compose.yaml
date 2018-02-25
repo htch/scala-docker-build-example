@@ -1,0 +1,8 @@
+version: '2'
+services:
+  scala-sbt:
+    image: "htch/scala-sbt-docker"
+    command: sbt docker:publishLocal
+    volumes:
+      - $PWD:/root
+      - /var/run/docker.sock:/var/run/docker.sock
